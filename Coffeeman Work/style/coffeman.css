@@ -1,0 +1,259 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+
+
+body{
+    background: linear-gradient(to left bottom,#ec9e9e ,#eb8479f5 );
+    font-family: 'Nunito', sans-serif; 
+    color: #fff;
+}
+
+.container{
+    border-radius: 3px;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    border-radius: 1rem;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container nav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1rem 15rem;
+}
+
+.container nav .Logo-section{
+    justify-content: center;
+    margin: .7rem 0 .7rem 0;
+}
+
+.container nav .logo{
+    align-content: center;
+    color: rgba(119, 119, 119, 0.507);
+    background-color: white;
+    margin-right: 2rem;
+    padding: 0.5rem;
+    opacity: 0.4;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+.container nav .logo:last-of-type{
+    margin-right: 0;
+}
+
+.container nav .coffee-head{
+    margin: .7rem 0;
+}
+
+h2{
+    margin:0;
+    padding: 1rem 2rem 0;
+}
+
+p{
+    margin: 0;
+    padding: 1rem 2rem 0; 
+}
+.notify-button{
+    margin-top: 2rem;
+}
+.btn{
+    display: inline-block;
+    background-color: #fff;
+    color: #eb8479f5;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border: 1px solid #fff;
+    margin: .5rem 0;
+    width: 70%;
+    text-align: center;
+    border-radius: 1rem;
+    
+}
+
+
+
+.Coffeman{
+    align-self: center;
+    color: white;
+    font-family: 'Nunito', sans-serif; 
+    font-size: 1.5rem;
+    padding: rem 0rem 0rem;
+    margin-right: 3rem;
+}
+
+
+
+ .best-best{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    padding: 1rem 15rem;
+} 
+
+.image-coffee-cont{
+    /* display: inline-block; */
+    background-image: url(../image/coffee1.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 70%;
+    height: 30rem;
+    border-radius: 1rem;
+    flex: 1 1 50%;
+    
+}
+
+.container-best{
+    flex: 1 1 50%;
+}
+
+.w3-light-grey{
+    background-color: lightgray;
+    border-radius: 3px;
+    width: 80%;
+    align-items: center;
+    
+}
+.w3-green{
+    background-color: #fff;
+    color: #fff;
+    height:0.5rem;
+    width:60%;
+    border-radius: 3px;
+   
+    
+    
+}
+/* best-head */
+.best-coffee-container{
+    margin:1rem auto;
+}
+.best-head{
+    font-family: 'Nunito', sans-serif; 
+    font-size: 2rem;
+    font-weight: 500;
+    color:white  ;
+    width: 70%; 
+    padding: 0 5rem 1rem 0;
+    letter-spacing: 0.1rem;
+}
+.coffee-para{
+    margin:1rem auto;
+}
+.best-para{
+    color: white;
+    font-family: 'Nunito', sans-serif; 
+    font-size: 1.3rem;
+    color: white;
+    padding: 1rem 5rem 1rem 0;
+    letter-spacing: 0.1rem;
+
+}
+
+
+
+.foot{
+    /* display: flex; */
+    margin-top: 7.5rem;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 1rem 1rem;
+}
+
+.icon-one{
+    margin-top: 1rem;
+    background-color: rgba(245, 240, 240, 0.363);
+    padding: 0.2rem;
+    width: 8%;
+    border-radius: 0.2rem;
+}
+.icon-two{
+    margin-top: 1rem;
+    background-color: rgba(245, 240, 240, 0.363);
+    padding: 0.2rem;
+    width: 8%;
+    border-radius: 0.2rem;
+}
+.like2{
+    font-family: 'Nunito', sans-serif; 
+    font-size: 1rem;
+    font-weight: 500;
+    color:white  ;
+}
+.like-tw4{
+    font-family: 'Nunito', sans-serif; 
+    font-size: 1rem;
+    font-weight: 500;
+    color:white  ;
+}
+
+.private-policy{
+    font-family: 'Nunito', sans-serif; 
+    font-size: 1rem;
+    font-weight: 500;
+    color:white  ;
+    text-decoration: underline;
+}
+
+.made-policy{
+    font-family: 'Nunito', sans-serif; 
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgba(245, 240, 240, 0.363) ;
+    
+}
+
+.sv{
+    font-family: 'Nunito', sans-serif; 
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+@media screen and (max-width: 575.98px){
+    .container nav{
+        padding: 1rem 2rem;
+        justify-content: center;
+    } 
+}
+
+@media screen and (min-width: 576px) and (max-width: 767.98px){
+    .container nav{
+        padding: 1rem 2rem;
+    } 
+}
+
+@media screen and (min-width: 768px) and (max-width: 991.98px){
+    .container nav{
+        padding: 1rem 10rem;
+    }    
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199.98px){
+    
+}
+
+@media screen and (min-width: 1200px){
+    
+}
